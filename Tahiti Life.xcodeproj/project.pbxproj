@@ -13,6 +13,9 @@
 		48A989FC1B17AF4C00955879 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A989FB1B17AF4C00955879 /* Images.xcassets */; };
 		48A989FF1B17AF4C00955879 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48A989FD1B17AF4C00955879 /* LaunchScreen.xib */; };
 		48A98A0B1B17AF4C00955879 /* Tahiti_LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A98A0A1B17AF4C00955879 /* Tahiti_LifeTests.swift */; };
+		48A98A181B17AF9D00955879 /* down75.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A98A151B17AF9D00955879 /* down75.png */; };
+		48A98A191B17AF9D00955879 /* refresh75.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A98A161B17AF9D00955879 /* refresh75.png */; };
+		48A98A1A1B17AF9D00955879 /* up75.png in Resources */ = {isa = PBXBuildFile; fileRef = 48A98A171B17AF9D00955879 /* up75.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		48A98A041B17AF4C00955879 /* Tahiti LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tahiti LifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A98A091B17AF4C00955879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48A98A0A1B17AF4C00955879 /* Tahiti_LifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tahiti_LifeTests.swift; sourceTree = "<group>"; };
+		48A98A151B17AF9D00955879 /* down75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down75.png; sourceTree = "<group>"; };
+		48A98A161B17AF9D00955879 /* refresh75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh75.png; sourceTree = "<group>"; };
+		48A98A171B17AF9D00955879 /* up75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up75.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 				48A989F81B17AF4C00955879 /* Main.storyboard */,
 				48A989FB1B17AF4C00955879 /* Images.xcassets */,
 				48A989FD1B17AF4C00955879 /* LaunchScreen.xib */,
+				48A98A141B17AF9D00955879 /* images */,
 				48A989F21B17AF4C00955879 /* Supporting Files */,
 			);
 			path = "Tahiti Life";
@@ -110,6 +117,16 @@
 				48A98A091B17AF4C00955879 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48A98A141B17AF9D00955879 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				48A98A151B17AF9D00955879 /* down75.png */,
+				48A98A161B17AF9D00955879 /* refresh75.png */,
+				48A98A171B17AF9D00955879 /* up75.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +210,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				48A989FA1B17AF4C00955879 /* Main.storyboard in Resources */,
+				48A98A181B17AF9D00955879 /* down75.png in Resources */,
+				48A98A1A1B17AF9D00955879 /* up75.png in Resources */,
 				48A989FF1B17AF4C00955879 /* LaunchScreen.xib in Resources */,
 				48A989FC1B17AF4C00955879 /* Images.xcassets in Resources */,
+				48A98A191B17AF9D00955879 /* refresh75.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
