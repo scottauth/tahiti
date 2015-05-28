@@ -429,6 +429,7 @@
 				48A98A101B17AF4C00955879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48A98A111B17AF4C00955879 /* Build configuration list for PBXNativeTarget "Tahiti LifeTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +438,7 @@
 				48A98A131B17AF4C00955879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
