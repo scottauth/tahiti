@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48A989F51B17AF4C00955879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A989F41B17AF4C00955879 /* AppDelegate.swift */; };
+		48A989F71B17AF4C00955879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A989F61B17AF4C00955879 /* ViewController.swift */; };
+		48A989FA1B17AF4C00955879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A989F81B17AF4C00955879 /* Main.storyboard */; };
+		48A989FC1B17AF4C00955879 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A989FB1B17AF4C00955879 /* Images.xcassets */; };
+		48A989FF1B17AF4C00955879 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48A989FD1B17AF4C00955879 /* LaunchScreen.xib */; };
+		48A98A0B1B17AF4C00955879 /* Tahiti_LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A98A0A1B17AF4C00955879 /* Tahiti_LifeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48A98A051B17AF4C00955879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48A989E71B17AF4B00955879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48A989EE1B17AF4C00955879;
+			remoteInfo = "Tahiti Life";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48A989EF1B17AF4C00955879 /* Tahiti Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tahiti Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A989F31B17AF4C00955879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A989F41B17AF4C00955879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48A989F61B17AF4C00955879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48A989F91B17AF4C00955879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48A989FB1B17AF4C00955879 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		48A989FE1B17AF4C00955879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		48A98A041B17AF4C00955879 /* Tahiti LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tahiti LifeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A98A091B17AF4C00955879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A98A0A1B17AF4C00955879 /* Tahiti_LifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tahiti_LifeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48A989EC1B17AF4C00955879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A98A011B17AF4C00955879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48A989E61B17AF4B00955879 = {
+			isa = PBXGroup;
+			children = (
+				48A989F11B17AF4C00955879 /* Tahiti Life */,
+				48A98A071B17AF4C00955879 /* Tahiti LifeTests */,
+				48A989F01B17AF4C00955879 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48A989F01B17AF4C00955879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48A989EF1B17AF4C00955879 /* Tahiti Life.app */,
+				48A98A041B17AF4C00955879 /* Tahiti LifeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48A989F11B17AF4C00955879 /* Tahiti Life */ = {
+			isa = PBXGroup;
+			children = (
+				48A989F41B17AF4C00955879 /* AppDelegate.swift */,
+				48A989F61B17AF4C00955879 /* ViewController.swift */,
+				48A989F81B17AF4C00955879 /* Main.storyboard */,
+				48A989FB1B17AF4C00955879 /* Images.xcassets */,
+				48A989FD1B17AF4C00955879 /* LaunchScreen.xib */,
+				48A989F21B17AF4C00955879 /* Supporting Files */,
+			);
+			path = "Tahiti Life";
+			sourceTree = "<group>";
+		};
+		48A989F21B17AF4C00955879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48A989F31B17AF4C00955879 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48A98A071B17AF4C00955879 /* Tahiti LifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				48A98A0A1B17AF4C00955879 /* Tahiti_LifeTests.swift */,
+				48A98A081B17AF4C00955879 /* Supporting Files */,
+			);
+			path = "Tahiti LifeTests";
+			sourceTree = "<group>";
+		};
+		48A98A081B17AF4C00955879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48A98A091B17AF4C00955879 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48A989EE1B17AF4C00955879 /* Tahiti Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A98A0E1B17AF4C00955879 /* Build configuration list for PBXNativeTarget "Tahiti Life" */;
+			buildPhases = (
+				48A989EB1B17AF4C00955879 /* Sources */,
+				48A989EC1B17AF4C00955879 /* Frameworks */,
+				48A989ED1B17AF4C00955879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tahiti Life";
+			productName = "Tahiti Life";
+			productReference = 48A989EF1B17AF4C00955879 /* Tahiti Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48A98A031B17AF4C00955879 /* Tahiti LifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A98A111B17AF4C00955879 /* Build configuration list for PBXNativeTarget "Tahiti LifeTests" */;
+			buildPhases = (
+				48A98A001B17AF4C00955879 /* Sources */,
+				48A98A011B17AF4C00955879 /* Frameworks */,
+				48A98A021B17AF4C00955879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48A98A061B17AF4C00955879 /* PBXTargetDependency */,
+			);
+			name = "Tahiti LifeTests";
+			productName = "Tahiti LifeTests";
+			productReference = 48A98A041B17AF4C00955879 /* Tahiti LifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48A989E71B17AF4B00955879 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Scott Auth";
+				TargetAttributes = {
+					48A989EE1B17AF4C00955879 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					48A98A031B17AF4C00955879 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 48A989EE1B17AF4C00955879;
+					};
+				};
+			};
+			buildConfigurationList = 48A989EA1B17AF4B00955879 /* Build configuration list for PBXProject "Tahiti Life" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48A989E61B17AF4B00955879;
+			productRefGroup = 48A989F01B17AF4C00955879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A989EE1B17AF4C00955879 /* Tahiti Life */,
+				48A98A031B17AF4C00955879 /* Tahiti LifeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48A989ED1B17AF4C00955879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A989FA1B17AF4C00955879 /* Main.storyboard in Resources */,
+				48A989FF1B17AF4C00955879 /* LaunchScreen.xib in Resources */,
+				48A989FC1B17AF4C00955879 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A98A021B17AF4C00955879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48A989EB1B17AF4C00955879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A989F71B17AF4C00955879 /* ViewController.swift in Sources */,
+				48A989F51B17AF4C00955879 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A98A001B17AF4C00955879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A98A0B1B17AF4C00955879 /* Tahiti_LifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48A98A061B17AF4C00955879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48A989EE1B17AF4C00955879 /* Tahiti Life */;
+			targetProxy = 48A98A051B17AF4C00955879 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48A989F81B17AF4C00955879 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48A989F91B17AF4C00955879 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48A989FD1B17AF4C00955879 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48A989FE1B17AF4C00955879 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48A98A0C1B17AF4C00955879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48A98A0D1B17AF4C00955879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48A98A0F1B17AF4C00955879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tahiti Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48A98A101B17AF4C00955879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Tahiti Life/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48A98A121B17AF4C00955879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tahiti LifeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tahiti Life.app/Tahiti Life";
+			};
+			name = Debug;
+		};
+		48A98A131B17AF4C00955879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tahiti LifeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tahiti Life.app/Tahiti Life";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48A989EA1B17AF4B00955879 /* Build configuration list for PBXProject "Tahiti Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A98A0C1B17AF4C00955879 /* Debug */,
+				48A98A0D1B17AF4C00955879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A98A0E1B17AF4C00955879 /* Build configuration list for PBXNativeTarget "Tahiti Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A98A0F1B17AF4C00955879 /* Debug */,
+				48A98A101B17AF4C00955879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48A98A111B17AF4C00955879 /* Build configuration list for PBXNativeTarget "Tahiti LifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A98A121B17AF4C00955879 /* Debug */,
+				48A98A131B17AF4C00955879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48A989E71B17AF4B00955879 /* Project object */;
+}
